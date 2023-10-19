@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
+}
+
+@media (max-width:974px) {
+    .btn{
+      margin-top: 5px;
+    }
+    .table{
+      justify-content: center;
+      align-items: center;
+ }
+    
+}
+
+@media (max-width:495px) {
+  .btn{
+    margin-top: 5px;
+  }
+  .table{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  
+}
